@@ -73,6 +73,7 @@ button {
     background-image: url("./img/Lab-Grown-Chocolate-Could-Be-The-Future-of-Sustainable-Confectionery.jpg");
     font-family: "netflixTypo";
     font-size: 200%;
+    color: red;
     border: 3px solid red;
     box-shadow: inset 0px 0px 20px red;
 }
@@ -86,6 +87,12 @@ button:hover {
     text-align: center;
     font-size: 200%;
     margin-top: 8%;
+}
+
+.footerGoldText {
+    background-image: linear-gradient( to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 @media screen and (max-width: 800px) {
