@@ -74,11 +74,12 @@ button {
     font-family: "netflixTypo";
     font-size: 200%;
     border: 3px solid red;
-    box-shadow: inset 0px 0px 20px red, inset 0px 0px 20px red, inset 0px 0px 20px red;
+    box-shadow: inset 0px 0px 20px red;
 }
 
 button:hover {
-    border: 5.5px solid red;
+    /* border: px5 solid red; */
+    box-shadow: inset 0px 0px 20px red, inset 0px 0px 20px red;
 }
 
 .footerInfo {
