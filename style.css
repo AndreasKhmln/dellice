@@ -71,7 +71,7 @@ button {
     height: 280px;
     background: rgb(199, 169, 115);
     background-image: url("./img/Lab-Grown-Chocolate-Could-Be-The-Future-of-Sustainable-Confectionery.jpg");
-    font-family: "netflixTypo";
+    font-family: 'Alfa Slab One', cursive;
     font-size: 200%;
     color: red;
     border: 3px solid red;
@@ -108,6 +108,9 @@ button:hover {
         font-size: 150%;
         border-radius: 4%;
         text-decoration: none;
+        color: red;
+        border: 1px solid red;
+        box-shadow: inset 0px 0px 20px red;
     }
     .labelh2 {
         font-size: 200%;
