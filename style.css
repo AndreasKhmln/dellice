@@ -75,6 +75,7 @@ button {
     font-size: 200%;
     color: red;
     border: 3px solid red;
+    text-shadow: 4px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1.5px 1.5px black, -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black;
 }
 
 button:hover {
