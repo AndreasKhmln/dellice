@@ -70,7 +70,8 @@ button {
     width: 55%;
     height: 280px;
     background: rgb(199, 169, 115);
-    background-image: url("./img/Lab-Grown-Chocolate-Could-Be-The-Future-of-Sustainable-Confectionery.jpg");
+    background-image: url("./img/chocoBtn2.jpg");
+    background-size: 1050px, 500px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 200%;
     color: red;
