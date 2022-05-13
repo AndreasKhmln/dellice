@@ -14,6 +14,9 @@ h1 {
     font-family: 'Alfa Slab One', cursive;
 }
 
+
+/*Police qui s'applique à tout les labels*/
+
 @font-face {
     font-family: "netflixTypo";
     src: url("font/bebasneue-regular-webfont.woff2") format("woff2"), url("/font/bebasneue-regular-webfont.woff") format("woff");
@@ -30,6 +33,9 @@ h1 {
 #imgs {
     overflow: hidden;
 }
+
+
+/*Always tasty label + Peinture dorée*/
 
 .relativeImage {
     position: relative;
@@ -89,11 +95,30 @@ button:hover {
     margin-top: 8%;
 }
 
+
+/*Fond doré des deux premier label au pied de page*/
+
 .footerGoldText {
     background-image: linear-gradient( to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
+
+table {
+    margin-left: 46%;
+    margin: auto;
+}
+
+td {
+    color: white;
+}
+
+.phoneNumber {
+    text-decoration: none;
+}
+
+
+/*Partie responsive*/
 
 @media screen and (max-width: 800px) {
     body {
@@ -129,17 +154,5 @@ button:hover {
     img {
         width: 100%;
     }
-}
-
-table {
-    margin-left: 46%;
-    margin: auto;
-}
-
-td {
-    color: white;
-}
-
-.phoneNumber {
-    text-decoration: none;
+    /*Fin partie responsive*/
 }

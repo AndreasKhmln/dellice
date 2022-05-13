@@ -1,3 +1,10 @@
+<!--
+ * Projet : dellice.fr
+ * Description : Un site vitrine de produit chocolatier
+ * Dernière modification : 13.05.2022
+ * Version : 1.1
+ * Auteur : Andreas Khmelnitski
+-->
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <meta name="format-detection" content="telephone=no">
 </head>
+<!--En tête-->
 
 <body onload="Init('imgs')">
     <h1>Dellice</h1>
@@ -17,7 +25,8 @@
         <img class="imgGoldenBrush" src="./img/Gold-brush.png">
         <div class="labelh2">Always Tasty</div>
     </div>
-
+    <!--Fin en tête-->
+    <!--Contenu du bouton-->
     <button type="button" onclick="Toggle('imgs')">Salzbourg Schocolade</button>
     <div id="imgs">
         <img src="./img/Capture1.jpeg">
@@ -40,7 +49,8 @@
         <img src="./img/Capture18.jpeg">
         <img src="./img/Capture19.jpeg">
     </div>
-
+    <!--Fin contenu du bouton-->
+    <!--Pied de page-->
     <footer>
         <table class="footerInfo">
 
@@ -67,7 +77,9 @@
         </table>
     </footer>
 </body>
+<!--Fin pied de page-->
 
+<!--Animation des images qui deroulent-->
 <script src="animation.js"></script>
 
 </html>
