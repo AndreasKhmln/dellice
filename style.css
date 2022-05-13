@@ -139,3 +139,7 @@ table {
 td {
     color: white;
 }
+
+.phoneNumber {
+    text-decoration: none;
+}
