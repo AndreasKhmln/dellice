@@ -104,12 +104,15 @@ button:hover {
     }
     button {
         width: 100%;
-        margin-top: 30%;
+        margin-top: 10%;
         font-size: 150%;
         border-radius: 4%;
         text-decoration: none;
         color: red;
         border: 1px solid red;
+    }
+    .relativeImage {
+        margin-bottom: 15%;
     }
     .labelh2 {
         font-size: 200%;
@@ -121,7 +124,7 @@ button:hover {
     .imgGoldenBrush {
         height: 40%;
         width: 60%;
-        margin-top: 30%;
+        margin-top: 27%;
     }
     img {
         width: 100%;
