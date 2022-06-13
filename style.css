@@ -120,6 +120,12 @@ td {
 
 /*Partie responsive*/
 
+@media screen and (min-width: 2000px) {
+    button {
+        background-size: 1500px, 500px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     body {
         text-align: center;
