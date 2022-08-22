@@ -72,21 +72,33 @@ a {
     text-decoration: none;
 }
 
+#border {
+    background-image: url("./img/chocoBtn3.jpg");
+}
+
 button {
     width: 55%;
     height: 280px;
     background: rgb(199, 169, 115);
-    background-image: url("./img/chocoBtn8.jpg");
+    background-image: url("./img/chocoBtn4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 1045px, 500px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 200%;
     color: red;
-    border: 3px solid red;
+    border: 3px solid;
+    border-width: 6px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( to right, #841913 0, #c02727 22%, #e64d4d 45%, #f0b0b0 50%, #e64d4d 55%, #c02727 78%, #841913 100%);
     text-shadow: 4px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1.5px 1.5px black, -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black;
 }
 
 button:hover {
-    border: 5px solid red;
+    border: 3px solid;
+    border-width: 10px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( to right, #841913 0, #c02727 22%, #e64d4d 45%, #f0b0b0 50%, #e64d4d 55%, #c02727 78%, #841913 100%);
 }
 
 .footerInfo {
@@ -140,7 +152,10 @@ td {
         border-radius: 4%;
         text-decoration: none;
         color: red;
-        border: 1px solid red;
+        border: 3px solid;
+        border-width: 6px;
+        border-image-slice: 1;
+        border-image-source: linear-gradient( to right, #841913 0, #c02727 22%, #e64d4d 45%, #f0b0b0 50%, #e64d4d 55%, #c02727 78%, #841913 100%);
     }
     .relativeImage {
         margin-bottom: 15%;
