@@ -9,7 +9,7 @@ body {
 
 h1 {
     margin: 0%;
-    color: red;
+    color: #ff0000;
     font-size: 900%;
     font-family: 'Alfa Slab One', cursive;
 }
@@ -90,7 +90,7 @@ button {
     border: 3px solid;
     border-width: 6px;
     border-image-slice: 1;
-    border-image-source: linear-gradient( to right, #841913 0, #c02727 22%, #e64d4d 45%, #f0b0b0 50%, #e64d4d 55%, #c02727 78%, #841913 100%);
+    border-image-source: linear-gradient( to right, #ff0000 100%, #fd2323 78%, #fd3939 45%, #ff9595 50%, #fd3939 45%, #fd2323 78%, #ff0000 100%);
     text-shadow: 4px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1.5px 1.5px black, -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black;
 }
 
